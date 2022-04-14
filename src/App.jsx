@@ -1,7 +1,9 @@
+import "./app.css";
+
 function App() {
   return (
-    <div className="App">
-      <div className="bg-blue-300 h-screen"></div>
+    <div className="">
+      <div className="top"></div>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="h-[60px] bg-white opacity-80 fixed w-full">
+    <div className="h-[60px] bg-white opacity-80 fixed w-full z-10">
       <div className="max-w-screen-2xl mx-auto h-full flex items-center justify-between">
         <div className="font-semibold text-2xl text-black hover:cursor-pointer">
           TeawThip

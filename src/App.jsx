@@ -1,7 +1,15 @@
+import "./app.css";
+import Landscape from "./components/Landscape";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="App">
-      <div className="bg-blue-300 h-screen"></div>
+    <div className="">
+      <Navbar />
+      <div className="top"></div>
+      <div className="bg-container">
+        <Landscape />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,83 @@
+.belief-container{
+    width: 100vw;
+    padding: 10rem;
+    background-color: #193206;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.belief-content{
+    width: 80%;
+    background-color: white;
+}
+.belief-animal{
+    padding: 5rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animal-content{
+    width: 50%;
+    height: 80%;
+    background-color: aqua;
+}
+.animal-image{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964242789950955621/unknown.png");
+    background-size: cover;
+    background-position: center;
+}
+.belief-place{
+    padding: 5rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.place-img1{
+    height: 55%;
+    width: 20%;
+    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248378781347860/unknown.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position: center;
+}
+    
+
+.place-img2{
+    height: 80%;
+    width: 40%;
+    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248866553745500/unknown.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.place-content{
+    height: 60%;
+    width: 30%;
+    background-color:violet;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.belief-ghost{
+    padding: 5rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ghost-content{
+    width: 50%;
+    height: 80%;
+    background-color: aqua;
+}
+.ghost-image{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964252049124499528/unknown.png");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,4 +1,5 @@
 import "./app.css";
+import Landscape from "./components/Landscape";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,6 +7,9 @@ function App() {
     <div className="">
       <Navbar />
       <div className="top"></div>
+      <div className="bg-container">
+        <Landscape />
+      </div>
     </div>
   );
 }

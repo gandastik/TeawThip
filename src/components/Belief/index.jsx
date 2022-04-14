@@ -17,6 +17,20 @@ const Belief = () => {
           <div className="ghost-content"></div>
           <div className="ghost-image"></div>
         </div>
+        <div className="belief-things">
+          <div className="things-content1">
+            <div className="img-things1"></div>
+            <div className="things1-text"></div>
+          </div>
+          <div className="things-content2">
+            <div className="img-things2"></div>
+            <div className="things2-text"></div>
+          </div>
+          <div className="things-content3">
+            <div className="img-things3"></div>
+            <div className="things3-text"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

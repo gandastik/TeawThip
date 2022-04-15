@@ -1,5 +1,32 @@
-.food_bg{
+.food_head{
     background-image: url("https://media.discordapp.net/attachments/960162734220120114/964402213185282058/bg_food.png");
     width: 100vw;
     height: 100vh;
+}
+
+.food_title{
+    color: white;
+    font-size: 180px;
+    height: 35%;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+
+.food_describe_zone{
+    height: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.food_describe_box{
+    background-color: white;
+    height: 80%;
+    width: 40%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.food_2type{
+    height: 100vh;
+    width: 100vw;
 }

@@ -10,7 +10,10 @@ const Food = () => {
                     <div className='food_describe_box'></div>
                 </div>
             </div>
-            <div className='food_2type'></div>
+            <div className='food_type_zone'>
+                <div className='food_type food_type1'></div>
+                <div className='food_type food_type2'></div>
+            </div>
         </div>
     );
 };

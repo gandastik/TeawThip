@@ -26,7 +26,20 @@
     border-radius: 10px;
 }
 
-.food_2type{
-    height: 100vh;
+.food_type_zone{
+    background-color: antiquewhite;
+    height: 50vh;
     width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+.food_type{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(149, 241, 241);
+    border-radius: 50%;
 }

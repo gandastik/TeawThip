@@ -8,13 +8,15 @@ const Navbar = () => {
           TeawThip
         </div>
         <div className="flex justify-between items-center gap-7 text-md">
-          <button className="font-medium hover:text-sky-600">History</button>
-          <button className=" font-medium hover:text-sky-600">Landscape</button>
-          <button className=" font-medium hover:text-sky-600">Climate</button>
-          <button className=" font-medium hover:text-sky-600">
+          <button className="font-medium hover:text-zinc-300">History</button>
+          <button className=" font-medium hover:text-zinc-300">
+            Landscape
+          </button>
+          <button className=" font-medium hover:text-zinc-300">Climate</button>
+          <button className=" font-medium hover:text-zinc-300">
             Tourists Attractions
           </button>
-          <button className=" font-medium hover:text-sky-600">
+          <button className=" font-medium hover:text-zinc-300">
             Arts and Culturals
           </button>
         </div>

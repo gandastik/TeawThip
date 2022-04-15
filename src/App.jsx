@@ -3,8 +3,8 @@ import History from "./components/History";
 import Landscape from "./components/Landscape";
 import Navbar from "./components/Navbar";
 import Belief from "./components/Belief";
-import Food from "./components/Food"
-
+import Food from "./components/Food";
+import Tourists from "./components/Tourists";
 
 function App() {
   return (
@@ -14,8 +14,9 @@ function App() {
       <div className="bg-container">
         <Landscape />
       </div>
+      <Tourists />
       <Belief />
-      <Food/>
+      <Food />
     </div>
   );
 }

@@ -3,6 +3,8 @@ import History from "./components/History";
 import Landscape from "./components/Landscape";
 import Navbar from "./components/Navbar";
 import Belief from "./components/Belief";
+import Food from "./components/Food"
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Landscape />
       </div>
       <Belief />
+      <Food/>
     </div>
   );
 }

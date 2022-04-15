@@ -19,7 +19,7 @@ const History = () => {
         </div>
 
         <div className="self-center max-w-2xl text-white font-normal text-lg">
-          <p className="indent-8">
+          <p className="indent-8 p-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             quisquam consequatur nemo possimus sequi et sunt iste tempora vero
             quam fugit deserunt veritatis obcaecati nostrum quo facilis, maxime

@@ -1,32 +1,104 @@
-.food_head{
-    background-image: url("https://media.discordapp.net/attachments/960162734220120114/964402213185282058/bg_food.png");
-    width: 100vw;
-    height: 100vh;
+.food_head {
+  background-image: url("https://media.discordapp.net/attachments/960162734220120114/964402213185282058/bg_food.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-.food_title{
-    color: white;
-    font-size: 180px;
-    height: 35%;
-    padding-left: 8%;
-    padding-top: 2%;
+.food_title {
+  color: white;
+  font-size: 180px;
+  height: 35%;
+  padding-left: 8%;
+  padding-top: 2%;
 }
 
-.food_describe_zone{
-    height: 65%;
+.food_describe_zone {
+  height: 65%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.food_describe_box {
+  background-color: white;
+  height: 70%;
+  width: 40%;
+  margin-right: 10%;
+  border-radius: 10px;
+  font-size: large;
+  text-align: start;
+  padding: 50px;
+}
+
+.food_type_zone {
+  background-color: antiquewhite;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+.food_type_box{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+
+}
+.food_type_element {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(149, 241, 241);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.food_describe_box{
-    background-color: white;
-    height: 80%;
-    width: 40%;
-    margin-right: 10%;
-    border-radius: 10px;
+.food_present_bg{
+    background-color: rgb(51, 51, 51);
+    height: 320vh;
 }
 
-.food_2type{
-    height: 100vh;
-    width: 100vw;
+.food_present_boxl{
+    /* background-color: rgb(203, 235, 177); */
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 5fr;
 }
+
+.food_present_boxl1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.food_present_boxl2{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.food_present_boxr{
+  /* background-color: rgb(203, 235, 177); */
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 5fr 2.5fr 2.5fr;
+}
+
+.food_present_boxr1{
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+.food_present_boxr2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

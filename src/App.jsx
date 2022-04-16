@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Belief from "./components/Belief";
 import Food from "./components/Food";
 import Tourists from "./components/Tourists";
+import Climate from "./components/Climate";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <History />
       <div className="bg-container">
         <Landscape />
+        <Climate />
       </div>
       <Tourists />
       <Belief />

@@ -1,5 +1,6 @@
 .food_head {
   background-image: url("https://media.discordapp.net/attachments/960162734220120114/964402213185282058/bg_food.png");
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
@@ -20,7 +21,7 @@
 
 .food_describe_box {
   background-color: white;
-  height: 80%;
+  height: 70%;
   width: 40%;
   margin-right: 10%;
   border-radius: 10px;
@@ -54,3 +55,50 @@
   align-items: center;
   justify-content: center;
 }
+
+.food_present_bg{
+    background-color: rgb(51, 51, 51);
+    height: 320vh;
+}
+
+.food_present_boxl{
+    /* background-color: rgb(203, 235, 177); */
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 5fr;
+}
+
+.food_present_boxl1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.food_present_boxl2{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.food_present_boxr{
+  /* background-color: rgb(203, 235, 177); */
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 5fr 2.5fr 2.5fr;
+}
+
+.food_present_boxr1{
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+.food_present_boxr2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

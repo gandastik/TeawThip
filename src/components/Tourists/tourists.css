@@ -50,15 +50,16 @@
     ),
     linear-gradient(332deg, #253b28, #1c2714);
 }
-.tourists-header {
+/* .tourists-header {
   font-size: 5rem;
   font-weight: 400;
   color: white;
-}
+} */
 .tourists-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
 }
 .doi-intanon {
   height: 800px;

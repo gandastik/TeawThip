@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-position: 50%;
+  /* background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
       transparent 0,
       transparent 32px
     ),
-    linear-gradient(332deg, #253b28, #1c2714);
+    linear-gradient(332deg, #253b28, #1c2714); */
 }
 .header-belief {
   font-size: 3rem;

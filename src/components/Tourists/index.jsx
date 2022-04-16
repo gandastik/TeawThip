@@ -3,7 +3,7 @@ import "./tourists.css";
 const Tourists = () => {
   return (
     <div className="tourists-container">
-      <div className="tourists-header p-5 text-5xl text-white font-medium text-center ">
+      <div className="tourists-header p-5 text-5xl text-white font-medium text-center tracking-wide ">
         Tourists Attractions
       </div>
       <div className="tourists-content">

@@ -3,7 +3,7 @@ import React from "react";
 const Landscape = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto">
-      <h1 className="text-5xl text-white font-medium text-center pt-7">
+      <h1 className="text-5xl text-white font-medium text-center pt-7 tracking-wide">
         Landscape
       </h1>
       <div className="flex mt-8 gap-6">

@@ -2,7 +2,8 @@
   overflow: auto;
 }
 
-.bg-container {
+.bg-container,
+.art-container {
   /* height: 100vh; */
   /* background: rgb(92, 116, 74);
   background: linear-gradient(

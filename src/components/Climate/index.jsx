@@ -6,7 +6,7 @@ import { ReactComponent as StormLogo } from "../../assets/storm.svg";
 const Climate = () => {
   return (
     <div className="max-w-screen-2xl mx-auto mt-10 pb-10">
-      <h1 className="text-5xl text-white font-medium text-center pt-7">
+      <h1 className="text-5xl text-white font-medium text-center pt-7 tracking-wide">
         Climate
       </h1>
       <div className="flex justify-center mt-8 gap-16">

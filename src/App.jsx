@@ -7,6 +7,7 @@ import Belief from "./components/Belief";
 import Food from "./components/Food";
 import Tourists from "./components/Tourists";
 import Climate from "./components/Climate";
+import Architecture from "./components/Architecture";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -42,7 +43,8 @@ function App() {
       <div ref={touristsRef}>
         <Tourists />
       </div>
-      <div ref={artRef}>
+      <div ref={artRef} className="art-container ">
+        <Architecture />
         <Belief />
         <Food />
       </div>

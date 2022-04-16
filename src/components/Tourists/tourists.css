@@ -1,114 +1,161 @@
-.tourists-container{
-    /* height: 1000px; */
-    background-color: #253C28;
+.tourists-container {
+  /* height: 1000px; */
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: repeating-linear-gradient(
+      377deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      287deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      332deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      242deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    linear-gradient(332deg, #253b28, #1c2714);
 }
-.tourists-header{
-    font-size: 5rem;
-    font-weight: 400;
-    color: white;
+.tourists-header {
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
 }
-.tourists-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.tourists-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.doi-intanon{
-    height: 800px;
-    width: 80%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964620141256126544/unknown.png");
-    background-size: cover;
-    background-position: center;
-    position:relative;
+.doi-intanon {
+  height: 800px;
+  width: 80%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964620141256126544/unknown.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.intanon-content{
-    width: 50%;
-    height: 50%;
-    background-color: white;
-    position:absolute;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    bottom:20px;
-    right:0;
+.intanon-content {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  bottom: 20px;
+  right: 0;
 }
-.tourists-place1{
-    padding: 5rem;
-    height: 50rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tourists-place1 {
+  padding: 5rem;
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.intanon-header{
-    font-size: large;
-    font-weight: 500;
+.intanon-header {
+  font-size: large;
+  font-weight: 500;
 }
-.tourists-place1-img1{
-    height: 65%;
-    width: 10%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964623286954770532/unknown.png");
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position: center;
+.tourists-place1-img1 {
+  height: 65%;
+  width: 10%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964623286954770532/unknown.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: center;
 }
-.tourists-place1-img2{
-    height: 90%;
-    width: 30%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964623015813971998/unknown.png");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+.tourists-place1-img2 {
+  height: 90%;
+  width: 30%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964623015813971998/unknown.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.tourists-place1-content{
-    height: 60%;
-    width: 40%;
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tourists-place1-content {
+  height: 60%;
+  width: 40%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.place1-header{
-    font-size: large;
-    font-weight: 500;
+.place1-header {
+  font-size: large;
+  font-weight: 500;
 }
-.tourists-place2-container{
-    height: 70rem;
-    width: 100%;
+.tourists-place2-container {
+  height: 70rem;
+  width: 100%;
 }
-.tourists-place2{
-    /* padding-top: 5rem; */
-    /* padding-bottom: 5rem; */
-    height: 60rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.tourists-place2 {
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.tourists-place2-content{
-    width: 50%;
-    height: 50%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tourists-place2-content {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.place2-header{
-    font-size: large;
-    font-weight: 500;
+.place2-header {
+  font-size: large;
+  font-weight: 500;
 }
-.tourists-place2-img1{
-    width: 50%;
-    height: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964625188228563025/unknown.png");
-    background-size: cover;
-    background-position: center;
+.tourists-place2-img1 {
+  width: 50%;
+  height: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964625188228563025/unknown.png");
+  background-size: cover;
+  background-position: center;
 }
-.tourists-place2-img2{
-    top: 650px;
-    width: 20%;
-    height: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964626930936713276/ChiangCave-03-copy.jpg");
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    margin-bottom: 5rem;
+.tourists-place2-img2 {
+  top: 650px;
+  width: 20%;
+  height: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964626930936713276/ChiangCave-03-copy.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin-bottom: 5rem;
 }

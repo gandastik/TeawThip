@@ -18,24 +18,31 @@ const History = () => {
           </h3>
         </div>
 
-        <div className="self-center max-w-2xl text-white font-normal text-lg">
-          <p className="indent-8 p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            quisquam consequatur nemo possimus sequi et sunt iste tempora vero
-            quam fugit deserunt veritatis obcaecati nostrum quo facilis, maxime
-            aut iure provident excepturi eligendi quae quibusdam enim
-            exercitationem. Sequi distinctio id eius cumque perferendis?
-            Cupiditate possimus iure odit facere autem! Harum error et magni,
-            autem modi enim, debitis accusamus expedita tempora aut nostrum?
-            Iste quam odio non at sint, repellendus nobis ullam sequi error esse
-            consectetur, nemo optio adipisci minima eligendi totam. Sapiente
-            molestiae nostrum doloremque! Facilis explicabo quidem dolore at
-            quasi quisquam veritatis fugit, iste porro ipsa incidunt ab ad iure
-            placeat nesciunt mollitia quas magni a perspiciatis? Deserunt quidem
-            cupiditate modi ipsum exercitationem reiciendis aliquid delectus,
-            possimus beatae ex odio, et laudantium. Laudantium molestias
-            consequatur eos dicta veniam, eum magnam tempora alias architecto
-            quo dolor! Impedit inventore odio vitae.
+        <div className="self-center max-w-2xl text-white font-normal">
+          <p className="indent-8 p-4 text-xl">
+            เมืองเชียงใหม่ มีชื่อที่ปรากฏในตำนานว่า "นพบุรีศรีนครพิงค์เชียงใหม่"
+            เป็นราชธานีของอาณาจักรล้านนาไทยมาตั้งแต่พระยามังรายได้ทรงสร้างขึ้น
+            เมื่อ พ.ศ.1839 ซึ่งมี อายุครบ 710 ปี ในปี พ.ศ.2549
+            และเมืองเชียงใหม่ได้มีวิวัฒนาการ สืบเนื่องกันมาในประวัติศาสตร์ตลอดมา
+            เชียงใหม่มีฐานะเป็นนครหลวงอิสระ ปกครองโดยกษัตริย์ราชวงศ์มังราย
+            ประมาณ 261 ปี (ระหว่าง พ.ศ.1839-2100) ในปี พ.ศ.2101
+            เชียงใหม่ได้เสียเอกราชให้แก่กษัตริย์พม่าชื่อบุเรงนอง
+            และได้ตกอยู่ภายใต้การปกครองของพม่านานร่วมสองร้อยปี
+            จนถึงสมัยพระบาทสมเด็จพระเจ้าตากสินมหาราช
+            และพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช
+            ได้ทรงช่วยเหลือล้านนาไทยภายใต้การนำของพระยากาวิละและพระยาจ่าบ้านในการทำสงครามขับไล่พม่าออกไปจากเชียงใหม่และเมืองเชียงแสนได้สำเร็จ
+          </p>
+          <p className="indent-8 text-xl p-4">
+            พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราชสถาปนาพระยากาวิละเป็นเจ้าเมืองเชียงใหม่
+            ในฐานะเมืองประเทศราชของกรุงเทพมหานคร และมีเชื้อสายของพระยากาวิละ
+            ซึ่งเรียกว่า ตระกูลเจ้าเจ็ดตน ปกครองเมืองเชียงใหม่
+            เมืองลำพูนและลาปางสืบต่อมาจนกระทั่งในรัชสมัยของ
+            พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวฯ ได้โปรดให้ปฏิรูปการปกครอง
+            หัวเมืองประเทศราช ได้ยกเลิกการมีเมืองประเทศราชในภาคเหนือ
+            จัดตั้งการปกครองแบบ มณฑลเทศาภิบาล เรียกว่า มณฑลพายัพ และเมื่อปี
+            พ.ศ.2476
+            พระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัวได้ปรับปรุงการปกครองเป็นแบบจังหวัด
+            เชียงใหม่จึงมีฐานะเป็นจังหวัดจนถึงปัจจุบัน
           </p>
         </div>
       </div>

@@ -1,142 +1,249 @@
-.belief-container{
-    width: 100vw;
-    padding: 10rem;
-    background-color: #193206;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-.belief-content{
-    width: 80%;
-    background-color: white;
+.belief-container {
+  /* width: 100vw; */
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: repeating-linear-gradient(
+      377deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      287deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      332deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      242deg,
+      rgba(141, 191, 242, 0.05),
+      rgba(141, 191, 242, 0.05) 1px,
+      transparent 0,
+      transparent 11px,
+      rgba(141, 191, 242, 0.05) 0,
+      rgba(141, 191, 242, 0.05) 12px,
+      transparent 0,
+      transparent 32px
+    ),
+    linear-gradient(332deg, #253b28, #1c2714);
 }
-.belief-animal{
-    padding: 5rem;
-    width: 100%;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-belief {
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
 }
-.animal-content{
-    width: 50%;
-    height: 80%;
-    background-color: aqua;
+.belief-content {
+  width: 80%;
+  background-color: white;
 }
-.animal-image{
-    width: 50%;
-    height: 100%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964242789950955621/unknown.png");
-    background-size: cover;
-    background-position: center;
+.belief-animal {
+  padding: 5rem;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.belief-place{
-    padding: 5rem;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.animal-content {
+  width: 50%;
+  height: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.place-img1{
-    height: 55%;
-    width: 20%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248378781347860/unknown.png");
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position: center;
+.content-header {
+  font-size: large;
+  font-weight: 500;
 }
-    
-
-.place-img2{
-    height: 80%;
-    width: 40%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248866553745500/unknown.png");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+.animal-image {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964242789950955621/unknown.png");
+  background-size: cover;
+  background-position: center;
 }
-.place-content{
-    height: 60%;
-    width: 30%;
-    background-color:violet;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.belief-place {
+  padding: 5rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.belief-ghost{
-    padding: 5rem;
-    width: 100%;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.place-img1 {
+  height: 55%;
+  width: 20%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248378781347860/unknown.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: center;
 }
-.ghost-content{
-    width: 50%;
-    height: 80%;
-    background-color: aqua;
+.place-img2 {
+  height: 80%;
+  width: 40%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964248866553745500/unknown.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.ghost-image{
-    width: 50%;
-    height: 100%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964252049124499528/unknown.png");
-    background-size: cover;
-    background-position: center;
+.place-content {
+  height: 60%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.belief-things{
-    padding: 5rem;
-    width: 100%;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.belief-ghost {
+  padding: 5rem;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.things-content1{
-    margin: 2rem;
-    background-color: aliceblue;
-    width: 25%;
-    height: 75%;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.ghost-content {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.img-things1{
-    width: 100%;
-    height: 70%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964266357459910686/unknown.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.ghost-image {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964252049124499528/unknown.png");
+  background-size: cover;
+  background-position: center;
 }
-.things-content2{
-    margin: 2rem;
-    background-color: aliceblue;
-    width: 25%;
-    height: 75%;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.belief-things {
+  width: 100%;
+  padding: 5rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.img-things2{
-    width: 100%;
-    height: 70%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964267516513898536/Banaue_Philippines_Handmade-brooms-01.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.things-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.things-content3{
-    margin: 2rem;
-    background-color: aliceblue;
-    width: 25%;
-    height: 75%;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.things-content1 {
+  margin: 2rem;
+  background-color: aliceblue;
+  width: 25%;
+  height: 75%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.img-things3{
-    width: 100%;
-    height: 70%;
-    background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964268422898794536/unknown.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.img-things1 {
+  width: 100%;
+  height: 65%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964266357459910686/unknown.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.things-text {
+  justify-content: center;
+}
+.things-content2 {
+  margin: 2rem;
+  background-color: aliceblue;
+  width: 25%;
+  height: 75%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-things2 {
+  width: 100%;
+  height: 65%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964267516513898536/Banaue_Philippines_Handmade-brooms-01.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.things-content3 {
+  margin: 2rem;
+  background-color: aliceblue;
+  width: 25%;
+  height: 75%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-things3 {
+  width: 100%;
+  height: 65%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964268422898794536/unknown.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.belief-culture {
+  /* padding: 5rem; */
+  width: 100%;
+  height: 33rem;
+  position: relative;
+  z-index: 1;
+}
+.culture-img {
+  height: 60%;
+  width: 30%;
+  top: 100px;
+  left: 1rem;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964500670898130974/unknown.png");
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+.culture-content {
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.content-header-culture {
+  margin-left: 26rem;
+  font-size: large;
+  font-weight: 500;
+}
+.culture1 {
+  margin-left: 25rem;
 }

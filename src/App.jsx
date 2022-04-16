@@ -8,6 +8,7 @@ import Food from "./components/Food";
 import Tourists from "./components/Tourists";
 import Climate from "./components/Climate";
 import Architecture from "./components/Architecture";
+import Footer from "./components/Footer";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -17,6 +18,7 @@ function App() {
   const climateRef = useRef(null);
   const touristsRef = useRef(null);
   const artRef = useRef(null);
+  const footerRef = useRef(null);
 
   const executeScroll = (pos) => {
     if (pos === 0) scrollToRef(historyRef);
@@ -24,6 +26,7 @@ function App() {
     else if (pos === 2) scrollToRef(climateRef);
     else if (pos === 3) scrollToRef(touristsRef);
     else if (pos === 4) scrollToRef(artRef);
+    else if (pos === 5) scrollToRef(footerRef);
   };
 
   return (
@@ -47,6 +50,9 @@ function App() {
         <Architecture />
         <Belief />
         <Food />
+      </div>
+      <div ref={footerRef} className="footer-container">
+        <Footer />
       </div>
     </div>
   );

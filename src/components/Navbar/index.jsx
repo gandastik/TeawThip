@@ -41,6 +41,12 @@ const Navbar = ({ executeScroll }) => {
           >
             Arts and Culturals
           </button>
+          <button
+            className=" font-medium hover:text-zinc-300"
+            onClick={() => executeScroll(5)}
+          >
+            Contacts
+          </button>
         </div>
       </div>
     </div>

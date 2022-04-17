@@ -104,6 +104,17 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tourists-place1-img2:hover {
+  height: 90%;
+  width: 30%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964798362232713236/unknown.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
 }
 .tourists-place1-content {
   height: 60%;
@@ -148,6 +159,17 @@
   background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964625188228563025/unknown.png");
   background-size: cover;
   background-position: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tourists-place2-img1:hover {
+  width: 50%;
+  height: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/965225263145312296/unknown.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
 }
 .tourists-place2-img2 {
   top: 650px;

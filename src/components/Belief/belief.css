@@ -90,6 +90,16 @@
   background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964242789950955621/unknown.png");
   background-size: cover;
   background-position: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.animal-image:hover {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/965225728146808852/unknown.png");
+  background-size: cover;
+  /* background-position: center; */
+  transition: 0.5s;
 }
 .belief-place {
   padding: 5rem;
@@ -112,6 +122,17 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.place-img2:hover {
+  height: 80%;
+  width: 40%;
+  background-image: url("https://cdn.discordapp.com/attachments/964238483067650068/964501880774467634/thailand-hot-spring_1.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
 }
 .place-content {
   height: 60%;

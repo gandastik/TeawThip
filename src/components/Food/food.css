@@ -1,6 +1,8 @@
 .food_head {
   background-image: url("https://media.discordapp.net/attachments/960162734220120114/964402213185282058/bg_food.png");
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   /* width: 100vw; */
   height: 100vh;
 }

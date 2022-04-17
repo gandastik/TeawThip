@@ -47,17 +47,17 @@ const Landscape = () => {
       </div>
       <div className="flex justify-center items-center gap-8 mt-6">
         <img
-          src="https://i.imgur.com/UupnNFg.jpg"
+          src="https://images.unsplash.com/photo-1509980245664-f12841ff49d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
           alt="views over moutain of Chiangmai"
           className="w-[400px] h-[300px] shadow-md rounded-md cursor-pointer hover:scale-105 transition duration-200"
         />
         <img
-          src="https://i.imgur.com/UupnNFg.jpg"
+          src="https://media.discordapp.net/attachments/287239433517006848/965155303169609749/doiInthanon.jpg?width=1006&height=566"
           alt="views over moutain of Chiangmai"
           className="w-[400px] h-[300px] shadow-md rounded-md cursor-pointer hover:scale-105 transition duration-200"
         />
         <img
-          src="https://i.imgur.com/UupnNFg.jpg"
+          src="https://images.unsplash.com/photo-1593093735059-eaf60625e6e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
           alt="views over moutain of Chiangmai"
           className="w-[400px] h-[300px] shadow-md rounded-md cursor-pointer hover:scale-105 transition duration-200"
         />

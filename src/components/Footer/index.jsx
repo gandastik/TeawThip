@@ -16,7 +16,7 @@ const Footer = () => {
               63010320 ณัฐนันท์ เรืองพานิช
             </h1>
             <h1 className="text-white text-2xl font-normal hover:text-zinc-200 cursor-default">
-              63010326 ณัฐพงศ์ นาคสามัคคี
+              63010326 ณัฐพงษ์ นาคสามัคคี
             </h1>
           </div>
         </div>

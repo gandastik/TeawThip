@@ -16,9 +16,9 @@
 }
 
 .food_describe_zone {
-  height: 65%;
+  /* height: 65%; */
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .food_describe_box {

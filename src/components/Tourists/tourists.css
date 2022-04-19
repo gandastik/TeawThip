@@ -70,8 +70,8 @@
   position: relative;
 }
 .intanon-content {
-  width: 50%;
-  height: 50%;
+  width: fit-content;
+  height: fit-content;
   background-color: white;
   position: absolute;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -117,8 +117,8 @@
   transition: 0.5s;
 }
 .tourists-place1-content {
-  height: 60%;
-  width: 40%;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   background-color: white;
   flex-direction: column;

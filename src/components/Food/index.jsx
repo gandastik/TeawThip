@@ -8,7 +8,7 @@ const Food = () => {
       <div className="food_head">
         <div className="food_title">อาหาร</div>
         <div className="food_describe_zone relative">
-          <div className="bg-white p-12 w-[40%] indent-8 rounded-xl shadow-md text-lg absolute left-[50%] top-0">
+          <div className="bg-white p-12 w-[40%] indent-8 rounded-xl shadow-md text-lg absolute left-[50%] sm:top-[-100px] top-0">
             ในอดีตบริเวณภาคเหนือของไทยเคยเป็นส่วนหนึ่งของอาณาจักรล้านนามาก่อน
             ช่วงที่อาณาจักรแห่งนี้เรืองอำนาจ
             ได้แผ่ขยายอาณาเขตเข้าไปยังประเทศเพื่อนบ้าน เช่น พม่า ลาว
